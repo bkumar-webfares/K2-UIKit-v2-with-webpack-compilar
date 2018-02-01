@@ -1,0 +1,59 @@
+nav{
+    background-color: $block-default-background!important;
+    .uk-navbar-brand{
+        height: auto;
+        margin: 20px 0;
+    }
+    .uk-navbar-nav{
+        float: none;background: #505050;display: table;width: 100%;
+        li{
+            display: table-cell;float: none;text-align: center;
+            a{
+                cursor: pointer;
+                color: $base-selection-color;
+            }
+        }
+        .uk-active a{
+            background: #303030;color: $base-selection-color;
+        }
+    }
+    .userAccount {
+        float: right;
+        list-style: none;
+        margin: 26px 15px 26px 0;
+        text-align: right;
+        .uk-badge {
+            position: absolute;
+            top: -11px;
+            right: -12px;
+        }
+        li{
+            display: inline-block;
+            margin: 0 16px;
+            position: relative;
+            a{
+                color: #000;
+            span.username{
+                text-transform: uppercase;
+                }
+            }
+        }
+    }
+    .additionLinks{
+        display: inline-block;
+        margin: 33px 0;
+        b{
+            font-size: 1.3rem;
+            border-left: 1px solid #303030;
+            border-right: 1px solid #303030;
+            padding: 0 20px;
+            margin-right: 17px;
+        }
+    }
+    .uk-button{
+        background-color: $global-theme-color;border-radius: 5px;color: #fff;
+    }
+    .uk-navbar{
+        a{cursor: pointer}
+    }
+}

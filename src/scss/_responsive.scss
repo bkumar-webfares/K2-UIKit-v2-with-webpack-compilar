@@ -1,1 +1,17 @@
-
+@media (min-width:768px){
+    .toggleMenu{display: none;}
+    .uk-offcanvas{display: inline-block;position: absolute;width: 185px;}
+    .uk-offcanvas-bar{position: relative;transform: inherit;-webkit-transform: inherit;width: 185px;background:$gray-background;height: calc(100vh - 136px);}
+    .uk-nav-offcanvas{
+        li{
+            border-bottom: 1px solid #cccccc;
+            a{color: #606060}
+        }
+    }
+}
+@media (max-width:767px){
+    #mainMenu{display: none;}
+    #mainMenu.uk-hidden{display: block!important;visibility: visible!important;}
+    nav .uk-navbar-nav li{display: block;}
+    .colRight{margin-left: 0;}
+}

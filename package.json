@@ -1,7 +1,7 @@
 {
   "name": "webpackproject",
   "version": "1.0.0",
-  "description": "Tabs-Greaves Travel Chicago",
+  "description": "K2-Greaves Travel",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server -w",
@@ -11,19 +11,16 @@
   "author": "Basant",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0",
     "font-awesome-webpack": "0.0.5-beta.2",
     "less": "^2.7.3",
     "rimraf": "^2.6.2",
-    "uikit": "^3.0.0-beta.38",
+    "uikit": "^2.27.2",
     "webpack": "^3.8.1",
     "webpack-dev": "^1.1.0",
     "webpack-dev-server": "^2.9.5"
   },
   "devDependencies": {
-    "bootstrap-loader": "^2.2.0",
-    "bootstrap-sass": "^3.3.7",
     "css-loader": "^0.28.7",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.5",

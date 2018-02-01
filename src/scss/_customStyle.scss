@@ -1,0 +1,5 @@
+body{background-color: $global-body-background;}
+.colRight{display: block;float: right;margin-left: 190px;margin-right: 0;margin-top: 0;min-height: 100%;padding: 0;}
+.page-container{position: relative;height: calc(100vh - 136px);background-color: $block-default-background!important}
+.innerContent{padding: 14px;}
+.uk-primary-button{background-color: $primary-color;color: #fff;}

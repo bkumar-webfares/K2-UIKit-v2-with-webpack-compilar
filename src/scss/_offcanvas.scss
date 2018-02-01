@@ -1,0 +1,24 @@
+.uk-offcanvas{
+    h3{
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 700;
+        margin-bottom: 0;
+        border-bottom: 1px solid #ccc;
+    }
+    
+}
+.uk-nav-offcanvas{
+    li{
+        a{
+            padding: 6px 0px;            
+            i{
+                width: 20px;
+            }
+        }
+        a:hover,a:focus{
+            background: inherit!important;
+            color: $primary-color!important;
+        }
+    }
+}

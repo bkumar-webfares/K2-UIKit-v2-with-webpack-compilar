@@ -13,7 +13,7 @@ var cssConfig = isProd ? cssProd : cssDev;
 module.exports = {
   entry: {
     app: './src/app.js',
-  },    
+  },
   output: {
       path: path.resolve(__dirname, 'dist'),
       filename: './js/[name].js'
@@ -25,7 +25,7 @@ module.exports = {
         use: cssProd
       },
       {
-        test: /\.(gif|png|jpe?g|svg)$/i, 
+        test: /\.(gif|png|jpe?g|svg)$/i,
         use:[
           'file-loader?name=img/[name].[ext]',
           // 'file-loader?name=[name].[ext]&outputPath=img/&publicPath=/img',
@@ -42,7 +42,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Webpack App Demo',
+      title: 'Greaves K2',
       minify: {
           collapseWhitespace:true,
       },
@@ -51,4 +51,4 @@ module.exports = {
     }),
     new ExtractTextPlugin("styles.css")
   ]
-}
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                          
